@@ -48,7 +48,7 @@ print("""
                    ██║   ██║  ██║███████╗      ██║   ██║██████╔╝     ██║██║     ███████╗██║  ██║
                    ╚═╝   ╚═╝  ╚═╝╚══════╝      ╚═╝   ╚═╝╚═════╝      ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝
                     
-                                          WiFi Profile/Password Dumper
+                                        Internet Profile/Password Dumper
                                             Created by: The-R34per
                                                 
                                  GitHub: https://github.com/The-R34per
@@ -67,4 +67,5 @@ for i in profile:
         print("{:<3}| {:<}".format(i, results[0]))
     except IndexError:
         print("{:<3}| {:<}".format(i, "None"))
+
 input("\n\nPress enter to end the program...")
